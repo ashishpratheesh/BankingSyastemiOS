@@ -29,8 +29,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
         case 1 :
             if webViewKit.canGoForward{
                 webViewKit.goForward()
-            }
-        case 2 :
+            }        case 2 :
             if webViewKit.canGoBack{
                 webViewKit.goBack()
             }
